@@ -32,9 +32,9 @@ export default function handler(req, res) {
       // Response
       return res.status(200).json({
         is_success: true,
-        user_id: "ritik_garg_29082005", // replace with your DOB
-        email: "your_email@example.com", // replace with your email
-        roll_number: "YOUR_ROLL_NUMBER", // replace with your roll number
+        user_id: "john_doe_17091999", // replace with your DOB
+        email: "john@xyz.com", // replace with your email
+        roll_number: "ABCD123", // replace with your roll number
         even_numbers: evenNumbers,
         odd_numbers: oddNumbers,
         alphabets: uppercaseAlphabets,
